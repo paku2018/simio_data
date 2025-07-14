@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimioApiHelper", "SimioApiHelper\SimioApiHelper.csproj", "{2762FF6D-665E-4161-B56D-EA377875A10E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimEngineFormsExperiment", "SimEngineFormsExperiment\SimEngineFormsExperiment.csproj", "{B5E17444-07ED-4832-9883-FDC3E8BCBAFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimEngineLibrary", "SimEngineLibrary\SimEngineLibrary.csproj", "{CA2AB3A8-EDBF-4D16-BB00-FB8C5F6CFEEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimEngineFormsPlan", "SimEngineFormsPlan\SimEngineFormsPlan.csproj", "{9A929FED-8005-479D-96F9-3CD20B6F9CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimEngineConsolePlanPublish", "SimEngineConsolePlanPublish\SimEngineConsolePlanPublish.csproj", "{74A01328-FFD1-4DC0-88AA-CD77CA34E7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimEngineConsoleExperimentSaveTable", "SimEngineConsoleExperimentSaveTable\SimEngineConsoleExperimentSaveTable.csproj", "{B1E18896-9816-40E3-B260-E4E56A23CD72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimioApiHelper Setup", "SimioApiHelper Setup\SimioApiHelper Setup.csproj", "{44555887-C439-470C-944D-8866EC3D7067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimEngineInterfaceHttp", "SimEngineInterfaceHttpServer\SimEngineInterfaceHttp.csproj", "{9F33AFC1-D619-45B4-ACDC-72BF048583D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimEngineInterfaceFileDrop", "SimEngineInterfaceFileDrop\SimEngineInterfaceFileDrop.csproj", "{9B8989A1-D42D-4482-A55D-F2048E17F169}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimEngineInterfaceHelpers", "SimEngineInterfaceHelpers\SimEngineInterfaceHelpers.csproj", "{A82B37BF-C3B3-4AD4-90FF-70F441597513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimEngineControllerInstall", "SimEngineControllerInstall\SimEngineControllerInstall.csproj", "{FDE7844B-BD10-44FA-9409-030DC0ADBCC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimEngineInterfaceMqtt", "SimEngineInterfaceMqtt\SimEngineInterfaceMqtt.csproj", "{72BB8720-77DC-4691-9741-798A8FD96131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimEngineConsoleLoadAndSave", "SimEngineConsoleOpenLoadSave\SimEngineConsoleLoadAndSave.csproj", "{E7C07A7C-445E-4E6E-99FA-3A71763EC3A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2762FF6D-665E-4161-B56D-EA377875A10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2762FF6D-665E-4161-B56D-EA377875A10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2762FF6D-665E-4161-B56D-EA377875A10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2762FF6D-665E-4161-B56D-EA377875A10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E17444-07ED-4832-9883-FDC3E8BCBAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E17444-07ED-4832-9883-FDC3E8BCBAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E17444-07ED-4832-9883-FDC3E8BCBAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E17444-07ED-4832-9883-FDC3E8BCBAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2AB3A8-EDBF-4D16-BB00-FB8C5F6CFEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2AB3A8-EDBF-4D16-BB00-FB8C5F6CFEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2AB3A8-EDBF-4D16-BB00-FB8C5F6CFEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2AB3A8-EDBF-4D16-BB00-FB8C5F6CFEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A929FED-8005-479D-96F9-3CD20B6F9CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A929FED-8005-479D-96F9-3CD20B6F9CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A929FED-8005-479D-96F9-3CD20B6F9CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A929FED-8005-479D-96F9-3CD20B6F9CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A01328-FFD1-4DC0-88AA-CD77CA34E7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A01328-FFD1-4DC0-88AA-CD77CA34E7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A01328-FFD1-4DC0-88AA-CD77CA34E7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A01328-FFD1-4DC0-88AA-CD77CA34E7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E18896-9816-40E3-B260-E4E56A23CD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E18896-9816-40E3-B260-E4E56A23CD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E18896-9816-40E3-B260-E4E56A23CD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E18896-9816-40E3-B260-E4E56A23CD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44555887-C439-470C-944D-8866EC3D7067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44555887-C439-470C-944D-8866EC3D7067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44555887-C439-470C-944D-8866EC3D7067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44555887-C439-470C-944D-8866EC3D7067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F33AFC1-D619-45B4-ACDC-72BF048583D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F33AFC1-D619-45B4-ACDC-72BF048583D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F33AFC1-D619-45B4-ACDC-72BF048583D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F33AFC1-D619-45B4-ACDC-72BF048583D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8989A1-D42D-4482-A55D-F2048E17F169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8989A1-D42D-4482-A55D-F2048E17F169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8989A1-D42D-4482-A55D-F2048E17F169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8989A1-D42D-4482-A55D-F2048E17F169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82B37BF-C3B3-4AD4-90FF-70F441597513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82B37BF-C3B3-4AD4-90FF-70F441597513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82B37BF-C3B3-4AD4-90FF-70F441597513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82B37BF-C3B3-4AD4-90FF-70F441597513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE7844B-BD10-44FA-9409-030DC0ADBCC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE7844B-BD10-44FA-9409-030DC0ADBCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE7844B-BD10-44FA-9409-030DC0ADBCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE7844B-BD10-44FA-9409-030DC0ADBCC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BB8720-77DC-4691-9741-798A8FD96131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BB8720-77DC-4691-9741-798A8FD96131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BB8720-77DC-4691-9741-798A8FD96131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BB8720-77DC-4691-9741-798A8FD96131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C07A7C-445E-4E6E-99FA-3A71763EC3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C07A7C-445E-4E6E-99FA-3A71763EC3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C07A7C-445E-4E6E-99FA-3A71763EC3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C07A7C-445E-4E6E-99FA-3A71763EC3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D45151B-2430-4678-92A9-FDD22E418E85}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
